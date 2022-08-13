@@ -57,7 +57,7 @@ const [IsTrue, setIsTrue] = useState(false)
       setTRight(Object.values(IsRight).filter(Boolean).length) // this line of code filter all true in arry
       setTWrong(Object.values(IsRight).length - TRight)
       setTotal((100 * TRight) / 10)
-      alert("thank for the give  test ")
+      alert("again click on  submit button  ")
       setIsTrue(true)
   }
   
